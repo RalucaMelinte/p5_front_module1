@@ -48,8 +48,9 @@ legend {
 }
 .job {
     width: 50%;
-    float: left;
     color: #5F706F;
+    float: left;
+    clear: both;
 }
 .about-job {
     width: 50%;
