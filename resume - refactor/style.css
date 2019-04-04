@@ -1,0 +1,73 @@
+/* ----- mobile */
+@media (min-width: 320px) and (max-width: 480px) {
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    
+    /* in progress ---- */
+}
+
+
+
+/* --- desktop */
+@media (min-width: 992px) {
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    main {
+        width: 800px;
+        margin: auto;
+        display: grid;
+        grid-template-columns: 240px 560px;
+        box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+    }
+    /* --------aside */
+    aside {
+        text-align: center;
+        width: 240px;
+        box-sizing: border-box;
+        background: #9B6A6C;
+        color: white;
+        display: grid;
+    }
+    .sidebar-profile img {
+        width: 150px;
+    }
+    .sidebar-top { 
+        position: relative;
+    }
+    .sidebar-profile {
+        padding: 20px 10px;
+        text-transform: uppercase;
+    }
+    
+    a {
+        text-decoration: none;
+        color: white;
+    }
+    a:hover {
+        cursor: pointer;
+        color: #000000;
+    }
+    /* ---------content---------- */
+    .content {
+        width: 560px;
+    }
+    .experience, .education {
+        margin-bottom: 30px;
+        padding: 5% 2% 5% 10%;
+        box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+    }
+    .job {
+        padding: 2% 1%;
+        border-bottom: 1px solid #bdbdbd;
+    }
+    .duration {
+        color: #93A8AC;
+        font-size: 12px;
+    }
+}
+
+
+
